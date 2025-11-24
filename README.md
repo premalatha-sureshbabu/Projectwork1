@@ -1,4 +1,4 @@
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2dc6d9d-d347-4c4e-898c-405305bab0db" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b1e87e2-aecd-4d6d-afbb-31bf755970a3" />## Title of the Project
+## Title of the Project
 Real-Time Conversational AI with Talking Avatar using Groq, Tavus API, and Gradio
 
 A lifelike AI chatbot system that processes user messages, generates intelligent responses using the Groq large language model, and produces synchronized talking-avatar video replies using the Tavus API — providing an immersive and realistic conversational experience.
@@ -62,3 +62,4 @@ By integrating LLMs with avatar-based video synthesis, this project demonstrates
 3. Gradio Documentation – https://www.gradio.app
 4. OpenAI LLM Conversation Systems – Research Concepts
 5. Human-Computer Interaction Through AI-Generated Visual Avatars – IEEE Digital Library
+
