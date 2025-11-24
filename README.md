@@ -1,59 +1,64 @@
-## Title of the Project
-Small description about the project like one below
-The integration of a chatbot within a hostel booking system, aimed at streamlining the reservation process for students and improving the overall user experience.
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d2dc6d9d-d347-4c4e-898c-405305bab0db" /><img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/2b1e87e2-aecd-4d6d-afbb-31bf755970a3" />## Title of the Project
+Real-Time Conversational AI with Talking Avatar using Groq, Tavus API, and Gradio
+
+A lifelike AI chatbot system that processes user messages, generates intelligent responses using the Groq large language model, and produces synchronized talking-avatar video replies using the Tavus API — providing an immersive and realistic conversational experience.
 
 ## About
-<!--Detailed Description about the project-->
-Tailored Chatbot for Hostel Booking System is a project designed to integrate a chatbot that leverages advanced natural language processing techniques to understand and respond to user queries to the hostel booking system. Traditional hostel booking processes are often time-consuming and involve manual searches and extensive communication with hostel staff. This project seeks to overcome these challenges by creating an easy-to-use chatbot interface that assists students in addressing inquiries.
+This project introduces a **next-generation conversational AI system** that integrates natural language processing with **video-based avatar generation**. Unlike traditional chatbots that only reply with text, this system uses the **GroqModel API** to generate context-aware responses and the **Tavus API** to convert those responses into a video where an AI avatar speaks with realistic expressions, lip-sync, and tone.
+
+The main goal of this project is to enhance the user experience through **visual human-like interaction**, which can be deployed in sectors such as:
+- EdTech
+- Customer support
+- Virtual assistance
+- Psychology / counseling
+- Retail AI agents
+- Interactive training & onboarding platforms
 
 ## Features
-<!--List the features of the project as shown below-->
-- Implements advance neural network method.
-- A framework based application for deployment purpose.
-- High scalability.
-- Less time complexity.
-- A specific scope of Chatbot response model, using json data format.
+- Real-time conversational response powered by Groq LLM.
+- Generates lifelike talking-avatar videos using Tavus.
+- Adjustable conversation tone (Friendly, Formal, Professional, etc.).
+- Simple web-based UI built using Gradio.
+- Public sharable link for deployment.
+- Highly scalable and modular client-based architecture.
+- Automatic streaming of video once generated.
 
 ## Requirements
-<!--List the requirements of the project as shown below-->
-* Operating System: Requires a 64-bit OS (Windows 10 or Ubuntu) for compatibility with deep learning frameworks.
-* Development Environment: Python 3.6 or later is necessary for coding the sign language detection system.
-* Deep Learning Frameworks: TensorFlow for model training, MediaPipe for hand gesture recognition.
-* Image Processing Libraries: OpenCV is essential for efficient image processing and real-time hand gesture recognition.
-* Version Control: Implementation of Git for collaborative development and effective code management.
-* IDE: Use of VSCode as the Integrated Development Environment for coding, debugging, and version control integration.
-* Additional Dependencies: Includes scikit-learn, TensorFlow (versions 2.4.1), TensorFlow GPU, OpenCV, and Mediapipe for deep learning tasks.
+* **Operating System**: 64-bit Windows 10/11 / Ubuntu / macOS.
+* **Programming Language**: Python 3.10 or later.
+* **APIs Required**:
+  - Groq API Key for text generation
+  - Tavus API Key + Replica ID for video rendering
+* **Libraries / Dependencies**:
+  - Gradio – user interface
+  - Requests – REST API communication
+  - Python-dotenv – environment variable management
+  - Swarmauri / GroqModel – LLM backend
+* **IDE**: VS Code recommended.
+* **Version Control**: Git/GitHub for collaboration and deployment.
 
 ## System Architecture
-<!--Embed the system architecture diagram as shown below-->
 
-![Screenshot 2023-11-25 133637](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/a60c11f3-0a11-47fb-ac89-755d5f45c995)
+<img width="965" height="429" alt="Screenshot 2025-11-21 221248" src="https://github.com/user-attachments/assets/ccfcd39f-840d-4ac0-bbf1-1dfc01f38a58" />
 
-
+<!-- Replace with your own system architecture image -->
 ## Output
 
-<!--Embed the Output picture at respective places as shown below as shown below-->
-#### Output1 - Name of the output
+#### Output – Text Response Generated and avatar video response
+<!-- Replace with your screenshot -->
+<img width="1920" height="1080" alt="Screenshot (174)" src="https://github.com/user-attachments/assets/1a9a5fce-659c-417f-9c31-0daec0c8a323" />
 
-![Screenshot 2023-11-25 134037](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/8c2b6b5c-5ed2-4ec4-b18e-5b6625402c16)
-
-#### Output2 - Name of the output
-![Screenshot 2023-11-25 134253](https://github.com/<<yourusername>>/Hand-Gesture-Recognition-System/assets/75235455/5e05c981-05ca-4aaa-aea2-d918dcf25cb7)
-
-Detection Accuracy: 96.7%
-Note: These metrics can be customized based on your actual performance evaluations.
+<!-- Replace with your screenshot -->
 
 
 ## Results and Impact
-<!--Give the results and impact as shown below-->
-The Sign Language Detection System enhances accessibility for individuals with hearing and speech impairments, providing a valuable tool for inclusive communication. The project's integration of computer vision and deep learning showcases its potential for intuitive and interactive human-computer interaction.
+The Talking Avatar AI system transforms the way users interact with chatbots by offering **human-like video responses**, creating a more engaging, personalized, and immersive experience. This technology has strong application potential in customer support, training, education, corporate presentations, healthcare, and marketing.
 
-This project serves as a foundation for future developments in assistive technologies and contributes to creating a more inclusive and accessible digital environment.
+By integrating LLMs with avatar-based video synthesis, this project demonstrates how conversational AI can move beyond plain text to **emotional and expressive communication**, paving the way for next-generation virtual assistants.
 
 ## Articles published / References
-1. N. S. Gupta, S. K. Rout, S. Barik, R. R. Kalangi, and B. Swampa, “Enhancing Heart Disease Prediction Accuracy Through Hybrid Machine Learning Methods ”, EAI Endorsed Trans IoT, vol. 10, Mar. 2024.
-2. A. A. BIN ZAINUDDIN, “Enhancing IoT Security: A Synergy of Machine Learning, Artificial Intelligence, and Blockchain”, Data Science Insights, vol. 2, no. 1, Feb. 2024.
-
-
-
-
+1. Groq API Documentation – https://console.groq.com/docs
+2. Tavus API Documentation – https://docs.tavus.io
+3. Gradio Documentation – https://www.gradio.app
+4. OpenAI LLM Conversation Systems – Research Concepts
+5. Human-Computer Interaction Through AI-Generated Visual Avatars – IEEE Digital Library
